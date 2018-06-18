@@ -7,6 +7,11 @@ p6df::modules::R::deps()    {
 p6df::modules::R::external::brew() {
 }
 
+p6df::modules::R::home::symlink() { 
+
+ # XXX: ENV move
+}
+
 p6df::modules::R::init() {
 
   p6df::modules::R::Renv::init "$P6_DFZ_SRC_DIR"
