@@ -35,5 +35,5 @@ p6df::modules::R::Renv::init() {
 
 p6df::prompt::R::line() {
 
-  env_version "R"
+  p6_lang_version "R"
 }
