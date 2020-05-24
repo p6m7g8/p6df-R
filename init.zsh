@@ -35,5 +35,10 @@ p6df::modules::R::Renv::init() {
 
 p6df::prompt::R::line() {
 
+  p6_r_prompt_info
+}
+
+p6_r_prompt_info() {
+
   p6_lang_version "R"
 }
