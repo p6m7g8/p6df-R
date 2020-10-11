@@ -5,6 +5,6 @@
 - p6df::modules::R::external::brew()
 - p6df::modules::R::home::symlink()
 - p6df::modules::R::init()
+- p6df::modules::R::prompt::line()
 - p6df::modules::R::version()
-- p6df::prompt::R::line()
 
