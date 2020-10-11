@@ -6,5 +6,4 @@
 - p6df::modules::R::home::symlink()
 - p6df::modules::R::init()
 - p6df::modules::R::prompt::line()
-- p6df::modules::R::version()
 
