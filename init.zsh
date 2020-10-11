@@ -6,6 +6,7 @@
 #>
 ######################################################################
 p6df::modules::R::version() { echo "0.0.1" }
+
 ######################################################################
 #<
 #
@@ -13,7 +14,11 @@ p6df::modules::R::version() { echo "0.0.1" }
 #
 #>
 ######################################################################
-p6df::modules::R::deps()    { ModuleDeps=() }
+p6df::modules::R::deps() {
+  ModuleDeps=(
+    p6m7g8/p6common
+  )
+}
 
 ######################################################################
 #<
@@ -32,7 +37,7 @@ p6df::modules::R::external::brew() {
 #
 #>
 ######################################################################
-p6df::modules::R::home::symlink() { 
+p6df::modules::R::home::symlink() {
 
  # XXX: ENV move
 }
@@ -71,18 +76,18 @@ p6df::modules::R::Renv::init() {
       export HAS_RENV=1
 
       p6df::util::path_if $RENV_ROOT/bin
-      eval "$(renv init - zsh)"
+      eval "$(p6_run_code renv init - zsh)"
     fi
 }
 
 ######################################################################
 #<
 #
-# Function: p6df::prompt::R::line()
+# Function: p6df::modules::R::prompt::line()
 #
 #>
 ######################################################################
-p6df::prompt::R::line() {
+p6df::modules::R::prompt::line() {
 
   p6_r_prompt_info
 }
@@ -96,5 +101,6 @@ p6df::prompt::R::line() {
 ######################################################################
 p6_r_prompt_info() {
 
+  echo -n "R:\t  "
   p6_lang_version "R"
 }
