@@ -52,7 +52,7 @@ p6df::modules::R::init() {
 # Function: p6df::modules::R::Renv::init(dir)
 #
 #  Args:
-#	dir - 
+#	dir -
 #
 #>
 ######################################################################
