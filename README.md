@@ -38,9 +38,11 @@
 
 - [Change Log](CHANGELOG.md)
 
-### Usage
+## Usage
 
-#### init.zsh:
+### p6df-R:
+
+#### p6df-R/init.zsh:
 
 - p6_r_prompt_info()
 - p6df::modules::R::Renv::init(dir)
