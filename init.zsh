@@ -9,6 +9,8 @@
 p6df::modules::R::deps() {
   ModuleDeps=(
     p6m7g8/p6common
+    viking/Renv
+    viking/R-build
   )
 }
 
