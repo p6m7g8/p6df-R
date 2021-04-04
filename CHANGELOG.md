@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.1](https://github.com/p6m7g8/p6df-R/compare/v2.1.0...v2.1.1) (2021-04-04)
+
+
+### Bug Fixes
+
+* **deps:** adds missing deps ([#16](https://github.com/p6m7g8/p6df-R/issues/16)) ([25d1923](https://github.com/p6m7g8/p6df-R/commit/25d1923c058a69b79f6e4b1fd0e8304004cd6426))
+
+
+* **README:** updates generator ([#15](https://github.com/p6m7g8/p6df-R/issues/15)) ([69c58b3](https://github.com/p6m7g8/p6df-R/commit/69c58b31fd29c1c4fcae65de496d550312840673))
+* **vscode:** splits vscode extensions to their languages ([#17](https://github.com/p6m7g8/p6df-R/issues/17)) ([e61a898](https://github.com/p6m7g8/p6df-R/commit/e61a8982d1a433a3fb639476b4fe99eeee67f971))
+* Coc -> .github ([b401bb0](https://github.com/p6m7g8/p6df-R/commit/b401bb0f60803bcdb856d7a3384237491ebc1949))
+
 ## [2.1.0](https://github.com/p6m7g8/p6df-R/compare/v2.0.0...v2.1.0) (2020-12-06)
 
 
